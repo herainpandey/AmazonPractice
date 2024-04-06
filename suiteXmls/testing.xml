@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testbg.org/testng-1.0.dtd">
+<suite name="Data Driven Basics" >
+    <test name="LoginTest">
+        <classes>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
