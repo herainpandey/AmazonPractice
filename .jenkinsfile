@@ -5,6 +5,14 @@ agent any
 stages
 {
 
+stage('Bring Grid Up')
+{
+    steps
+        {
+            bat "docker-compose up"
+        }
+}
+
 stage('Build')
 {
     steps
@@ -38,6 +46,14 @@ stage('Release')
 }
 
 
+}
+
+stage('Bring Grid Down')
+{
+    steps
+        {
+            bat "docker-compose down"
+        }
 }
 
 }

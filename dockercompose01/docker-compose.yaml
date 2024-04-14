@@ -8,14 +8,22 @@ services:
       - 4442:4442
   chrome:
     image: seleniarm/node-chromium
-    depends_on: hub
+    shm_size: '2g'
+    depends_on:
+    - hub
+    deploy:
+      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
   firefox:
     image: seleniarm/node-firefox
-    depends_on: hub
+    shm_size: '2g'
+    depends_on:
+      - hub
+    deploy:
+      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
