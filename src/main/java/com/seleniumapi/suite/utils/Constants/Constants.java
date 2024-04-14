@@ -1,5 +1,10 @@
 package com.seleniumapi.suite.utils.Constants;
-    public class Constants {
+
+import org.apache.hc.core5.http.ContentType;
+
+import static org.openqa.selenium.remote.http.HttpClient.Factory.create;
+
+public class Constants {
         public static final String USER_DIR = System.getProperty("user.dir");
         public static final String REPORTS_DIRECTORY = USER_DIR + "//target/surefire-reports/extent";;
         public static final String SCREENSHOT_DIRECTORY = USER_DIR + "//target/surefire-reports/screenshots";
@@ -16,6 +21,10 @@ package com.seleniumapi.suite.utils.Constants;
 
         public static final String STAGE_PROPERTIES= USER_DIR + "\\src\\main\\resources\\properties\\stage.properties";
 
+        public static final String AUTH_PROPERTIES= USER_DIR + "\\src\\main\\resources\\properties\\authentication.properties";
+
+        public static final String JSON_SCHEMA_PATH = USER_DIR + "\\src\\main\\resources\\json\\";
         public Constants() {
+
         }
     }

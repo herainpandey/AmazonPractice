@@ -2,34 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-14T12:12:35 IST" name="sanitySuite" finished-at="2024-04-14T12:13:09 IST" duration-ms="34018">
+  <suite started-at="2024-04-14T15:33:54 IST" name="sanitySuite" finished-at="2024-04-14T15:34:37 IST" duration-ms="43654">
     <groups>
-      <group name="regression">
-        <method signature="LogoutUserJSONTest.logoutUserCheckoutFlowDataViaJSON()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" name="logoutUserCheckoutFlowDataViaJSON" class="com.seleniumapi.testcases.LogoutUserJSONTest"/>
-      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="LogoutUserJSONTest.logoutUserCheckoutFlowDataViaJSON()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" name="logoutUserCheckoutFlowDataViaJSON" class="com.seleniumapi.testcases.LogoutUserJSONTest"/>
+        <method signature="LogoutUserAPISerialiseRequstTest.logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" name="logoutUserCheckoutFlowExcel" class="com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-14T12:12:35 IST" name="sanity" finished-at="2024-04-14T12:13:09 IST" duration-ms="34018">
-      <class name="com.seleniumapi.testcases.LogoutUserJSONTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" started-at="2024-04-14T12:12:35 IST" name="initializeDriver" finished-at="2024-04-14T12:12:37 IST" duration-ms="1486" status="PASS">
+    <test started-at="2024-04-14T15:33:54 IST" name="sanity" finished-at="2024-04-14T15:34:37 IST" duration-ms="43654">
+      <class name="com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest">
+        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" started-at="2024-04-14T15:33:54 IST" name="getStudentData" finished-at="2024-04-14T15:33:58 IST" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentData -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" started-at="2024-04-14T15:33:58 IST" name="initializeDriver" finished-at="2024-04-14T15:34:00 IST" duration-ms="1663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" started-at="2024-04-14T12:12:37 IST" name="setObjects" finished-at="2024-04-14T12:12:37 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" started-at="2024-04-14T15:34:00 IST" name="setObjects" finished-at="2024-04-14T15:34:00 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlowDataViaJSON()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" started-at="2024-04-14T12:12:37 IST" name="logoutUserCheckoutFlowDataViaJSON" finished-at="2024-04-14T12:13:09 IST" duration-ms="32168" status="PASS">
+        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" started-at="2024-04-14T15:34:00 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-14T15:34:37 IST" duration-ms="37182" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUserCheckoutFlowDataViaJSON -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserJSONTest@7c729a55]" started-at="2024-04-14T12:13:09 IST" name="quitDriver" finished-at="2024-04-14T12:13:09 IST" duration-ms="134" status="PASS">
+        </test-method> <!-- logoutUserCheckoutFlowExcel -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest@3febb011]" started-at="2024-04-14T15:34:37 IST" name="quitDriver" finished-at="2024-04-14T15:34:37 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.seleniumapi.testcases.LogoutUserJSONTest -->
+      </class> <!-- com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest -->
     </test> <!-- sanity -->
   </suite> <!-- sanitySuite -->
 </testng-results>

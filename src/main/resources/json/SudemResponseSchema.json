@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "addressLineOne": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "city",
+    "addressLineOne",
+    "postalCode",
+    "email",
+    "company",
+    "country",
+    "state"
+  ]
+}

@@ -1,93 +1,38 @@
 package com.seleniumapi.suite.objects;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class BillingAddress {
 
+    @JsonProperty("firstName")
     private String firstName;
+
+    @JsonProperty("lastName")
     private String lastName;
+
+    @JsonProperty("addressLineOne")
     private String addressLineOne;
+
+    @JsonProperty("city")
     private String city;
+
+    @JsonProperty("postalCode")
     private String postalCode;
+
+    @JsonProperty("email")
     private String email;
 
+    @JsonProperty("company")
     private String company;
 
+    @JsonProperty("country")
     private String country;
 
+    @JsonProperty("state")
     private String state;
-
-    public String getCompany() {
-        return company;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getAddressLineOne() {
-        return addressLineOne;
-    }
-
-    public void setAddressLineOne(String addressLineOne) {
-        this.addressLineOne = addressLineOne;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-
-
 }

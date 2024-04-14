@@ -18,8 +18,12 @@
             <class name="com.seleniumapi.testcases.LogoutTest"></class>
             <class name="com.seleniumapi.testcases.LogoutUserExcelTest"></class>
             <class name="com.seleniumapi.testcases.LogoutUserAPITest"></class>
--->
             <class name="com.seleniumapi.testcases.LogoutUserJSONTest"></class>
+
+-->
+            <class name="com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest"></class>
+
+
 
         </classes>
     </test>
