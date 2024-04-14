@@ -1,4 +1,4 @@
-package com.seleniumapi.utils.reports.service;
+package com.seleniumapi.suite.utils.reports.service;
 
 
 import com.relevantcodes.extentreports.ExtentReports;

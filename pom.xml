@@ -16,6 +16,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <outputDirectory>${basedir}/target/out-put</outputDirectory>
+    <xmlPath>D:/IT/Project/AmazonPractice/suiteXmls</xmlPath>
 
   </properties>
 
@@ -32,16 +33,11 @@
             <version>3.2.5</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>sanity.xml</suiteXmlFile>
+                <suiteXmlFile>suiteXmls/sanity.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
         </plugins>
-        <testResources>
-          <testResource>
-            <directory>resources</directory>
-          </testResource>
-        </testResources>
       </build>
     </profile>
     <profile>
@@ -54,16 +50,11 @@
             <version>3.2.5</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>regression.xml</suiteXmlFile>
+                <suiteXmlFile>suiteXmls/regression.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
         </plugins>
-        <testResources>
-          <testResource>
-            <directory>resources</directory>
-          </testResource>
-        </testResources>
       </build>
     </profile>
     <profile>
@@ -76,20 +67,11 @@
             <version>3.2.5</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>parallelrun.xml</suiteXmlFile>
+                <suiteXmlFile>suiteXmls/parallelrun.xml</suiteXmlFile>
               </suiteXmlFiles>
-
             </configuration>
-
           </plugin>
-
         </plugins>
-        <testResources>
-          <testResource>
-            <directory>resources</directory>
-          </testResource>
-        </testResources>
-
       </build>
     </profile>
     <profile>
@@ -102,16 +84,11 @@
             <version>3.2.5</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>gridparallel.xml</suiteXmlFile>
+                <suiteXmlFile>suiteXmls/gridparallel.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
         </plugins>
-        <testResources>
-          <testResource>
-            <directory>resources</directory>
-          </testResource>
-        </testResources>
       </build>
     </profile>
   </profiles>
@@ -189,6 +166,21 @@
       <version>8.3.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+    <dependency>
+      <groupId>com.relevantcodes</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>2.40.2</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
 

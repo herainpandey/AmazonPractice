@@ -8,17 +8,15 @@
         </run>
     </groups>
     <listeners>
-        <listener class-name="com.seleniumapi.utiities.RetryListeners"></listener>
-        <listener class-name="listener.com.paytm.testcases.TestNGListeners"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.reports.service.Reportermanager"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.listener.RetryListeners"></listener>
     </listeners>
 
     <test name="Regression">
         <parameter name="browser" value="chrome"></parameter>
         <parameter name="testDataPath" value="test-data/BillingAddress.json"></parameter>
         <classes>
-            <class name="order_test.com.paytm.testcases.LoginTest"></class>
-            <class name="order_test.com.paytm.testcases.LogoutUserJSONTest"></class>
-            <class name="order_test.com.paytm.testcases.LogoutUserExcelTest"></class>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
         </classes>
     </test>
 </suite>

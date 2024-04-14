@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <!-- Logging Properties -->
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %-5level %c{2} -%msg%n</Property>
+        <Property name="APP_LOG_ROOT">D:/IT/Project/AmazonPractice/src/main/resources/logs/</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender -->
+        <Console name="console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- File Appenders on need basis -->
+        <RollingFile name="file" fileName="${APP_LOG_ROOT}/Application.log"
+                                 filePattern="${APP_LOG_ROOT}/Application-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="info">
+            <AppenderRef ref="file"/>
+        </Root>
+
+
+       <!-- <Logger name="org.seleniumapi" additivity="false" level="info">
+            <AppenderRef ref="console"/>
+        </Logger>-->
+
+
+    </Loggers>
+
+</Configuration>

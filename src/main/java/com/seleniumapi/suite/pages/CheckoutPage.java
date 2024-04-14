@@ -1,11 +1,11 @@
-package com.seleniumapi.pages;
+package com.seleniumapi.suite.pages;
 
-import com.seleniumapi.objects.BillingAddress;
-import com.seleniumapi.pages.common.AbstractComponent;
-import com.seleniumapi.pages.common.CommonHelper;
-import com.seleniumapi.utils.Constants.Constants;
+import com.seleniumapi.suite.objects.BillingAddress;
+import com.seleniumapi.suite.pages.common.AbstractComponent;
+import com.seleniumapi.suite.pages.common.CommonHelper;
+import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.utils.enums.DataEnum;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
-import com.seleniumapi.utils.enums.DataEnum;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -69,7 +69,7 @@ public class CheckoutPage extends AbstractComponent {
         return new OrderConfirmationPage(driver);
     }
 
-    public CheckoutPage loginWithUser() throws IOException {
+    public com.seleniumapi.suite.pages.CheckoutPage loginWithUser() throws IOException {
         driver.findElement(By.xpath("//a[contains(text(),'Click here to login')]")).click();
         driver.findElement(By.cssSelector("#username")).sendKeys(PropertyReader.getInstance().getProperty(Constants.STAGE_PROPERTIES, "password"));
 

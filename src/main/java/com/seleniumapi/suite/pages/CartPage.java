@@ -1,6 +1,7 @@
-package com.seleniumapi.pages;
+package com.seleniumapi.suite.pages;
 
-import com.seleniumapi.pages.common.AbstractComponent;
+
+import com.seleniumapi.suite.pages.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

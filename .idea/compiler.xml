@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AmazonPractice" target="1.5" />
+      <module name="RestAssuredFramework" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>

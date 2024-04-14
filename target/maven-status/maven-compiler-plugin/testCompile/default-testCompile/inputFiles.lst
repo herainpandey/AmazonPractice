@@ -1,3 +1,5 @@
-D:\IT\Project\AmazonPractice\src\test\java\com\task\automation\MyFirstTestCase.java
-D:\IT\Project\AmazonPractice\src\test\java\com\task\automation\MySecondTestCase.java
-D:\IT\Project\AmazonPractice\src\test\java\com\task\automation\MyThirdTestCase.java
+D:\IT\Project\AmazonPractice\src\test\java\com\seleniumapi\testcases\LoginTest.java
+D:\IT\Project\AmazonPractice\src\test\java\com\seleniumapi\testcases\LogoutUserExcelTest.java
+D:\IT\Project\AmazonPractice\src\test\java\com\seleniumapi\testcases\LogoutUserJSONTest.java
+D:\IT\Project\AmazonPractice\src\test\java\expectedResult\ExpectedResult.java
+D:\IT\Project\AmazonPractice\src\test\java\com\seleniumapi\testcases\LogoutUserAPITest.java

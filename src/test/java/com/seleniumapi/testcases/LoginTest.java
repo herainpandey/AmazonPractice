@@ -1,16 +1,16 @@
 package com.seleniumapi.testcases;
-import com.seleniumapi.helper.OrderHelper;
-import com.seleniumapi.objects.BillingAddress;
-import com.seleniumapi.objects.Product;
-import com.seleniumapi.testbase.TestBase;
-import com.seleniumapi.utils.Constants.Constants;
+import com.seleniumapi.suite.helper.OrderHelper;
+import com.seleniumapi.suite.objects.BillingAddress;
+import com.seleniumapi.suite.objects.Product;
+import com.seleniumapi.suite.testbase.TestBase;
+import com.seleniumapi.suite.utils.Constants.Constants;
 import com.seleniumapi.utils.JsonUtil.JsonUtil;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.seleniumapi.pages.HomePage;
+import com.seleniumapi.suite.pages.HomePage;
 
 import java.io.IOException;
 

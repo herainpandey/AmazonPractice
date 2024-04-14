@@ -1,6 +1,6 @@
-package com.seleniumapi.utils.excelUtils;
+package com.seleniumapi.suite.utils.excelUtils;
 
-import com.seleniumapi.utils.Constants.Constants;
+import com.seleniumapi.suite.utils.Constants.Constants;
 import com.seleniumapi.utils.resourceLoaderUtil.ResourceLoader;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;

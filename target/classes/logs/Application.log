@@ -1,0 +1,120 @@
+2024-04-13T20:38:56.785+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T20:38:58.698+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T20:38:58.723+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T20:38:59.773+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:27:59.770+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:28:01.392+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:28:01.417+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:28:02.472+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:33:34.383+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:33:35.830+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:33:35.854+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:33:36.900+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:35:17.885+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:35:19.263+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:35:19.292+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:35:20.340+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:36:57.285+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:36:59.157+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:36:59.180+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:37:00.240+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:38:25.136+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:38:26.730+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:38:26.754+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:38:27.798+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:39:49.739+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:39:51.578+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:39:51.602+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:39:52.651+0530 INFO  pages.StorePage -Product added
+2024-04-13T21:41:37.625+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T21:41:40.820+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T21:41:40.844+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T21:41:41.896+0530 INFO  pages.StorePage -Product added
+2024-04-13T23:21:50.363+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T23:21:51.822+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T23:21:51.848+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T23:21:52.894+0530 INFO  pages.StorePage -Product added
+2024-04-13T23:23:08.436+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-13T23:23:08.438+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-13T23:23:08.438+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-13T23:23:10.365+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-13T23:23:14.463+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T23:23:15.988+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T23:23:16.012+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T23:23:17.072+0530 INFO  pages.StorePage -Product added
+2024-04-13T23:23:47.579+0530 INFO  listener.TestNGListeners -onTestSuccess -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-13T23:23:47.711+0530 INFO  listener.TestNGListeners -onFinish -> Test Name: sanity
+2024-04-13T23:57:04.826+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-13T23:57:04.829+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-13T23:57:04.829+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-13T23:57:06.890+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-13T23:57:10.533+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T23:57:11.776+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T23:57:11.802+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-13T23:57:11.839+0530 INFO  listener.TestNGListeners -onTestSkipped -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-13T23:57:13.032+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-13T23:57:16.134+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-13T23:57:17.354+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-13T23:57:17.374+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:09:16.086+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-14T00:09:16.089+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-14T00:09:16.089+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-14T00:09:17.766+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:09:20.428+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:09:21.684+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:09:21.708+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:09:22.753+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:09:29.745+0530 INFO  listener.TestNGListeners -onTestSkipped -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:09:30.949+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:09:33.880+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:09:35.086+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:09:35.108+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:09:36.159+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:09:44.984+0530 INFO  listener.TestNGListeners -onTestFailure -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:09:45.240+0530 INFO  listener.TestNGListeners -onFinish -> Test Name: sanity
+2024-04-14T00:11:01.944+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-14T00:11:01.947+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-14T00:11:01.947+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-14T00:11:03.443+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:11:06.453+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:11:07.746+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:11:07.771+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:11:08.829+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:11:17.476+0530 INFO  listener.TestNGListeners -onTestSkipped -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:11:18.595+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:11:22.422+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:11:24.173+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:11:24.196+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:11:25.258+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:11:33.954+0530 INFO  listener.TestNGListeners -onTestFailure -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:11:34.309+0530 INFO  listener.TestNGListeners -onFinish -> Test Name: sanity
+2024-04-14T00:12:00.667+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-14T00:12:00.670+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-14T00:12:00.670+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-14T00:12:04.981+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:12:08.557+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:12:10.727+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:12:10.750+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:12:11.807+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:12:19.356+0530 INFO  listener.TestNGListeners -onTestSkipped -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:12:20.495+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:12:24.535+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:12:26.093+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:12:26.113+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:12:27.158+0530 INFO  pages.StorePage -Product added
+2024-04-14T00:12:36.657+0530 INFO  listener.TestNGListeners -onTestFailure -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:12:36.907+0530 INFO  listener.TestNGListeners -onFinish -> Test Name: sanity
+2024-04-14T00:16:32.552+0530 INFO  listener.TestNGListeners -onStart -> Test Name: sanity
+2024-04-14T00:16:32.555+0530 INFO  listener.TestNGListeners -These methods will be executed in this <test> tag
+2024-04-14T00:16:32.555+0530 INFO  listener.TestNGListeners -logoutUserCheckoutFlowExcel
+2024-04-14T00:16:36.718+0530 INFO  listener.TestNGListeners -onTestStart -> Test Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:16:36.723+0530 INFO  listener.TestNGListeners -onTestSkipped -> Test Method Name: logoutUserCheckoutFlowExcel
+2024-04-14T00:16:36.827+0530 INFO  listener.TestNGListeners -onFinish -> Test Name: sanity
+2024-04-14T00:23:56.267+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T00:23:58.489+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T00:23:58.517+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T00:23:59.575+0530 INFO  pages.StorePage -Product added
+2024-04-14T08:02:27.485+0530 INFO  pages.StorePage -Going to enter color for Search
+2024-04-14T08:02:28.988+0530 INFO  pages.StorePage -Going to enter product on cart
+2024-04-14T08:02:29.015+0530 INFO  pages.StorePage -Product from list Blue Shoes
+2024-04-14T08:02:30.071+0530 INFO  pages.StorePage -Product added

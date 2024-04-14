@@ -1,6 +1,7 @@
-package com.seleniumapi.testbase;
+package com.seleniumapi.suite.testbase;
 
-import com.seleniumapi.utils.Constants.Constants;
+import com.seleniumapi.suite.core.DriverManager;
+import com.seleniumapi.suite.utils.Constants.Constants;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;

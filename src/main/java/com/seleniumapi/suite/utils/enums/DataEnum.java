@@ -1,4 +1,4 @@
-package com.seleniumapi.utils.enums;
+package com.seleniumapi.suite.utils.enums;
 
 public enum DataEnum {
     firstName,

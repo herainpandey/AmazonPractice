@@ -1,5 +1,6 @@
-package com.seleniumapi.pages.common;
-import com.seleniumapi.testbase.TestBase;
+package com.seleniumapi.suite.pages.common;
+
+import com.seleniumapi.suite.testbase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testbg.org/testng-1.0.dtd">
+
+
+<suite name="sanitySuite" >
+    <groups>
+        <run>
+            <include name="sanity"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.seleniumapi.suite.utils.reports.service.Reportermanager"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.listener.RetryListeners"></listener>
+    </listeners>
+
+    <test name="sanity">
+        <classes>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
