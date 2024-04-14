@@ -14,7 +14,13 @@
 
     <test name="sanity">
         <classes>
-            <class name="com.seleniumapi.testcases.LoginTest"></class>
+<!--
+            <class name="com.seleniumapi.testcases.LogoutTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserExcelTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserAPITest"></class>
+-->
+            <class name="com.seleniumapi.testcases.LogoutUserJSONTest"></class>
+
         </classes>
     </test>
 </suite>

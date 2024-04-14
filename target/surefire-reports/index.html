@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-sanitySuite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-sanitySuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-sanitySuite" title="com.seleniumapi.testcases.LoginTest" class="method navigator-link" hash-for-method="logoutUserCheckoutFlow">logoutUserCheckoutFlow</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-sanitySuite" title="com.seleniumapi.testcases.LogoutUserJSONTest" class="method navigator-link" hash-for-method="logoutUserCheckoutFlowDataViaJSON">logoutUserCheckoutFlowDataViaJSON</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-sanitySuite -->
@@ -121,14 +121,14 @@
           <div class="suite-sanitySuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.seleniumapi.testcases.LoginTest</span>
+              <span class="class-name">com.seleniumapi.testcases.LogoutUserJSONTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logoutUserCheckoutFlow">
-                  </a> <!-- logoutUserCheckoutFlow -->
-                  <span class="method-name">logoutUserCheckoutFlow</span>
+                  <a name="logoutUserCheckoutFlowDataViaJSON">
+                  </a> <!-- logoutUserCheckoutFlowDataViaJSON -->
+                  <span class="method-name">logoutUserCheckoutFlowDataViaJSON</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +159,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;sanity&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.seleniumapi.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.seleniumapi.testcases.LogoutUserJSONTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- sanity --&gt;
 &lt;/suite&gt; &lt;!-- sanitySuite --&gt;
@@ -184,10 +184,18 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">logoutUserCheckoutFlowDataViaJSON</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">logoutUserCheckoutFlow</span>
+                <span class="method-in-group-name">logoutUserCheckoutFlowDataViaJSON</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -209,14 +217,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logoutUserCheckoutFlow')
-data.setCell(0, 2, 'com.seleniumapi.testcases.LoginTest')
-data.setCell(0, 3, 34339);
+data.setCell(0, 1, 'logoutUserCheckoutFlowDataViaJSON')
+data.setCell(0, 2, 'com.seleniumapi.testcases.LogoutUserJSONTest')
+data.setCell(0, 3, 32168);
 window.suiteTableData['sanitySuite']= { tableData: data, tableDiv: 'times-div-sanitySuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-sanitySuite">
               </div> <!-- times-div-sanitySuite -->
             </div> <!-- times-div -->
@@ -231,15 +239,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-sanitySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.seleniumapi.testcases.LoginTest</span>
+              <span class="ignored-class-name">com.seleniumapi.testcases.LogoutUserJSONTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginUserCheckoutFlow</span>
-                <br/>
-                <span class="ignored-method-name">loginUserCheckoutFlowFaiedCase</span>
+                <span class="ignored-method-name">logoutUserCheckoutFlowDataViaGenericDesirialiser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -251,22 +257,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.seleniumapi.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.seleniumapi.testcases.LogoutUserJSONTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setObjects</span>
-                <span class="method-start">1508 ms</span>
+                <span class="method-start">1486 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logoutUserCheckoutFlow</span>
-                <span class="method-start">1630 ms</span>
+                <span class="method-name">logoutUserCheckoutFlowDataViaJSON</span>
+                <span class="method-start">1686 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">35970 ms</span>
+                <span class="method-start">33855 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

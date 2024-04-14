@@ -8,19 +8,16 @@ import com.seleniumapi.suite.testbase.TestBase;
 import com.seleniumapi.suite.utils.Constants.Constants;
 import com.seleniumapi.utils.JsonUtil.JsonUtil;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
-import com.seleniumapi.suite.utils.excelUtils.ExcelUtils;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
 
 import java.io.IOException;
-import java.util.Map;
 
 public class LogoutUserAPITest extends TestBase {
 
