@@ -45,9 +45,6 @@ stage('Release')
         }
 }
 
-
-}
-
 stage('Bring Grid Down')
 {
     steps
