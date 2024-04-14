@@ -1,4 +1,4 @@
-package com.seleniumapi.suite.utils.reports.service;
+package com.seleniumapi.suite.utils.reports.listener;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;

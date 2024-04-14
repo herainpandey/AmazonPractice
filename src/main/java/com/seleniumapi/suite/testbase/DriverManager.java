@@ -1,4 +1,4 @@
-package com.seleniumapi.suite.core;
+package com.seleniumapi.suite.testbase;
 
 import com.seleniumapi.suite.utils.Constants.Constants;
 import org.openqa.selenium.WebDriver;

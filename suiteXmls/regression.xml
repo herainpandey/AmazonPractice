@@ -8,15 +8,18 @@
         </run>
     </groups>
     <listeners>
-        <listener class-name="com.seleniumapi.suite.utils.reports.service.Reportermanager"></listener>
-        <listener class-name="com.seleniumapi.suite.utils.listener.RetryListeners"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.reports.listener.TestNGListeners"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.retryUtils.RetryListeners"></listener>
     </listeners>
 
     <test name="Regression">
         <parameter name="browser" value="chrome"></parameter>
-        <parameter name="testDataPath" value="test-data/BillingAddress.json"></parameter>
         <classes>
             <class name="com.seleniumapi.testcases.LoginTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserExcelTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserAPITest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserJSONTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest"></class>
         </classes>
     </test>
 </suite>

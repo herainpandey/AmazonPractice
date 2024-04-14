@@ -1,0 +1,22 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub:latest
+    ports:
+      - 4444:4444
+      - 4443:4443
+      - 4442:4442
+  chrome:
+    image: seleniarm/node-chromium
+    depends_on: hub
+    environment:
+      - SE_EVENT_BUS_HOST=hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+  firefox:
+    image: seleniarm/node-firefox
+    depends_on: hub
+    environment:
+      - SE_EVENT_BUS_HOST=hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443

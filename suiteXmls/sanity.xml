@@ -1,30 +1,39 @@
 <!DOCTYPE suite SYSTEM "https://testbg.org/testng-1.0.dtd">
 
 
-<suite name="sanitySuite" >
+<suite name="sanitySuite" parallel="tests" thread-count="2" >
     <groups>
         <run>
             <include name="sanity"/>
         </run>
     </groups>
     <listeners>
-        <listener class-name="com.seleniumapi.suite.utils.reports.service.Reportermanager"></listener>
-        <listener class-name="com.seleniumapi.suite.utils.listener.RetryListeners"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.reports.listener.TestNGListeners"></listener>
+        <listener class-name="com.seleniumapi.suite.utils.retryUtils.RetryListeners"></listener>
     </listeners>
 
-    <test name="sanity">
+    <test name="sanity1">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
-<!--
-            <class name="com.seleniumapi.testcases.LogoutTest"></class>
-            <class name="com.seleniumapi.testcases.LogoutUserExcelTest"></class>
-            <class name="com.seleniumapi.testcases.LogoutUserAPITest"></class>
-            <class name="com.seleniumapi.testcases.LogoutUserJSONTest"></class>
-
--->
-            <class name="com.seleniumapi.testcases.LogoutUserAPISerialiseRequstTest"></class>
-
-
-
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="sanity2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="sanity3">
+        <parameter name="browser" value="remote_chrome"></parameter>
+        <classes>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="sanity4">
+        <parameter name="browser" value="remote_firefox"></parameter>
+        <classes>
+            <class name="com.seleniumapi.testcases.LoginTest"></class>
         </classes>
     </test>
 </suite>

@@ -1,6 +1,5 @@
 package com.seleniumapi.suite.testbase;
 
-import com.seleniumapi.suite.core.DriverManager;
 import com.seleniumapi.suite.utils.Constants.Constants;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.openqa.selenium.WebDriver;
@@ -20,9 +19,12 @@ public class TestBase{
         return threadDriver.get();
     }
 
+    @Parameters("browser")
     @BeforeMethod(alwaysRun = true)
-    public void initializeDriver() throws IOException, URISyntaxException {;
-        String browser = PropertyReader.getInstance().getProperty(Constants.STAGE_PROPERTIES,"browser");
+    public void initializeDriver(@Optional String browser) throws IOException, URISyntaxException {;
+        if(browser ==null) {
+            browser = PropertyReader.getInstance().getProperty(Constants.STAGE_PROPERTIES, "browser");
+        }
         this.setDriver(DriverManager.getInstance().InitializeDriver(browser));
     }
 

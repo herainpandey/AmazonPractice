@@ -1,6 +1,7 @@
-com\seleniumapi\testcases\LoginTest.class
-com\seleniumapi\testcases\LogoutUserAPISerialiseRequstTest.class
 com\seleniumapi\testcases\LogoutUserJSONTest.class
 expectedResult\ExpectedResult.class
+com\seleniumapi\testcases\LoginTest.class
+com\seleniumapi\testcases\LogoutUserAPISerialiseRequstTest.class
 com\seleniumapi\testcases\LogoutUserAPITest.class
+com\seleniumapi\testcases\LoginAuthAPIValidation.class
 com\seleniumapi\testcases\LogoutUserExcelTest.class

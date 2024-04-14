@@ -6,7 +6,7 @@ import static org.openqa.selenium.remote.http.HttpClient.Factory.create;
 
 public class Constants {
         public static final String USER_DIR = System.getProperty("user.dir");
-        public static final String REPORTS_DIRECTORY = USER_DIR + "//target/surefire-reports/extent";;
+        public static final String REPORTS_DIRECTORY = USER_DIR + "//test-output//";;
         public static final String SCREENSHOT_DIRECTORY = USER_DIR + "//target/surefire-reports/screenshots";
         public static final String USER_NAME = "root";
         public static final String DB_PASSWORD = "root";
