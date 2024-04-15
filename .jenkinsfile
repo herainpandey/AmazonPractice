@@ -36,6 +36,7 @@ stage('Release')
            echo "Releasing the project"
         }
 }
+}
 
  post {
 
@@ -55,5 +56,4 @@ stage('Release')
 
 }
 
-}
 }
