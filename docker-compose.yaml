@@ -4,11 +4,10 @@ services:
     image: selenium/hub:latest
     ports:
       - 4444:4444
-      - 4443:4443
-      - 4442:4442
   chrome:
     image: seleniarm/node-chromium
-    shm_size: '2g'
+    volumes:
+      - /dev/shm:/dev/shm
     depends_on:
     - hub
     deploy:

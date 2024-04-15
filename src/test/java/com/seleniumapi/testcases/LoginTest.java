@@ -24,6 +24,7 @@ public class LoginTest extends TestBase {
   @BeforeMethod(alwaysRun = true)
     public void setObjects() throws IOException {
         homePage = new HomePage(TestBase.getDriver());
+        log.info("Deserializing Billing");
         testData = JsonUtil.getTestData(Constants.BILLING_ADDRESS_JSON, BillingAddress.class);
     }
 

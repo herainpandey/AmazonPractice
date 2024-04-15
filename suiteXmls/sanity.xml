@@ -12,19 +12,19 @@
         <listener class-name="com.seleniumapi.suite.utils.retryUtils.RetryListeners"></listener>
     </listeners>
 
-    <test name="sanity1">
+    <test name="sanity">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.seleniumapi.testcases.LoginTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserDatabaseTest"></class>
         </classes>
     </test>
     <test name="sanity2">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="com.seleniumapi.testcases.LoginTest"></class>
+            <class name="com.seleniumapi.testcases.LogoutUserAPITest"></class>
         </classes>
     </test>
-    <test name="sanity3">
+    <!--<test name="sanity3">
         <parameter name="browser" value="remote_chrome"></parameter>
         <classes>
             <class name="com.seleniumapi.testcases.LoginTest"></class>
@@ -35,5 +35,5 @@
         <classes>
             <class name="com.seleniumapi.testcases.LoginTest"></class>
         </classes>
-    </test>
+    </test>-->
 </suite>

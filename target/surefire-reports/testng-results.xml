@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-14T19:48:57 IST" name="sanitySuite" finished-at="2024-04-14T19:50:29 IST" duration-ms="91864">
+  <suite started-at="2024-04-15T09:28:31 IST" name="sanitySuite" finished-at="2024-04-15T09:29:12 IST" duration-ms="40811">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest.logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@44e3760b]" name="logoutUserCheckoutFlow" class="com.seleniumapi.testcases.LoginTest"/>
-        <method signature="LoginTest.logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@6e16b8b5]" name="logoutUserCheckoutFlow" class="com.seleniumapi.testcases.LoginTest"/>
-        <method signature="LoginTest.logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@25ddbbbb]" name="logoutUserCheckoutFlow" class="com.seleniumapi.testcases.LoginTest"/>
-        <method signature="LoginTest.logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@2a1edad4]" name="logoutUserCheckoutFlow" class="com.seleniumapi.testcases.LoginTest"/>
+        <method signature="LogoutUserDatabaseTest.logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" name="logoutUserCheckoutFlowExcel" class="com.seleniumapi.testcases.LogoutUserDatabaseTest"/>
+        <method signature="LogoutUserAPITest.logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" name="logoutUserCheckoutFlowExcel" class="com.seleniumapi.testcases.LogoutUserAPITest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-14T19:48:57 IST" name="sanity1" finished-at="2024-04-14T19:49:36 IST" duration-ms="38843">
-      <class name="com.seleniumapi.testcases.LoginTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LoginTest@44e3760b]" started-at="2024-04-14T19:48:57 IST" name="initializeDriver" finished-at="2024-04-14T19:48:59 IST" duration-ms="2118" status="PASS">
+    <test started-at="2024-04-15T09:28:31 IST" name="sanity" finished-at="2024-04-15T09:29:03 IST" duration-ms="32652">
+      <class name="com.seleniumapi.testcases.LogoutUserDatabaseTest">
+        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:31 IST" name="getStudentData" finished-at="2024-04-15T09:28:31 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentData -->
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:31 IST" name="initializeDriver" finished-at="2024-04-15T09:28:33 IST" duration-ms="1880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,23 +26,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LoginTest@44e3760b]" started-at="2024-04-14T19:48:59 IST" name="setObjects" finished-at="2024-04-14T19:48:59 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:33 IST" name="setObjects" finished-at="2024-04-15T09:28:33 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@44e3760b]" started-at="2024-04-14T19:48:59 IST" name="logoutUserCheckoutFlow" finished-at="2024-04-14T19:49:35 IST" duration-ms="36213" status="PASS">
+        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:33 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:29:03 IST" duration-ms="30179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUserCheckoutFlow -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LoginTest@44e3760b]" started-at="2024-04-14T19:49:36 IST" name="quitDriver" finished-at="2024-04-14T19:49:36 IST" duration-ms="239" status="PASS">
+        </test-method> <!-- logoutUserCheckoutFlowExcel -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:29:03 IST" name="quitDriver" finished-at="2024-04-15T09:29:03 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.seleniumapi.testcases.LoginTest -->
-    </test> <!-- sanity1 -->
-    <test started-at="2024-04-14T19:48:57 IST" name="sanity2" finished-at="2024-04-14T19:49:43 IST" duration-ms="46340">
-      <class name="com.seleniumapi.testcases.LoginTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LoginTest@6e16b8b5]" started-at="2024-04-14T19:48:57 IST" name="initializeDriver" finished-at="2024-04-14T19:49:03 IST" duration-ms="5994" status="PASS">
+      </class> <!-- com.seleniumapi.testcases.LogoutUserDatabaseTest -->
+    </test> <!-- sanity -->
+    <test started-at="2024-04-15T09:28:31 IST" name="sanity2" finished-at="2024-04-15T09:29:12 IST" duration-ms="40811">
+      <class name="com.seleniumapi.testcases.LogoutUserAPITest">
+        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:31 IST" name="getStudentData" finished-at="2024-04-15T09:28:34 IST" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentData -->
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:34 IST" name="initializeDriver" finished-at="2024-04-15T09:28:37 IST" duration-ms="3138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,73 +57,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LoginTest@6e16b8b5]" started-at="2024-04-14T19:49:03 IST" name="setObjects" finished-at="2024-04-14T19:49:03 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:37 IST" name="setObjects" finished-at="2024-04-15T09:28:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@6e16b8b5]" started-at="2024-04-14T19:49:03 IST" name="logoutUserCheckoutFlow" finished-at="2024-04-14T19:49:42 IST" duration-ms="39132" status="PASS">
+        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:37 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:29:11 IST" duration-ms="34081" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUserCheckoutFlow -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LoginTest@6e16b8b5]" started-at="2024-04-14T19:49:42 IST" name="quitDriver" finished-at="2024-04-14T19:49:43 IST" duration-ms="1168" status="PASS">
+        </test-method> <!-- logoutUserCheckoutFlowExcel -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:29:11 IST" name="quitDriver" finished-at="2024-04-15T09:29:12 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.seleniumapi.testcases.LoginTest -->
+      </class> <!-- com.seleniumapi.testcases.LogoutUserAPITest -->
     </test> <!-- sanity2 -->
-    <test started-at="2024-04-14T19:49:36 IST" name="sanity3" finished-at="2024-04-14T19:50:14 IST" duration-ms="37607">
-      <class name="com.seleniumapi.testcases.LoginTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LoginTest@25ddbbbb]" started-at="2024-04-14T19:49:36 IST" name="initializeDriver" finished-at="2024-04-14T19:49:39 IST" duration-ms="2377" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[remote_chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LoginTest@25ddbbbb]" started-at="2024-04-14T19:49:39 IST" name="setObjects" finished-at="2024-04-14T19:49:39 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@25ddbbbb]" started-at="2024-04-14T19:49:39 IST" name="logoutUserCheckoutFlow" finished-at="2024-04-14T19:50:14 IST" duration-ms="35078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutUserCheckoutFlow -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LoginTest@25ddbbbb]" started-at="2024-04-14T19:50:14 IST" name="quitDriver" finished-at="2024-04-14T19:50:14 IST" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.seleniumapi.testcases.LoginTest -->
-    </test> <!-- sanity3 -->
-    <test started-at="2024-04-14T19:49:43 IST" name="sanity4" finished-at="2024-04-14T19:50:29 IST" duration-ms="45489">
-      <class name="com.seleniumapi.testcases.LoginTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LoginTest@2a1edad4]" started-at="2024-04-14T19:49:43 IST" name="initializeDriver" finished-at="2024-04-14T19:49:48 IST" duration-ms="4742" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[remote_firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LoginTest@2a1edad4]" started-at="2024-04-14T19:49:48 IST" name="setObjects" finished-at="2024-04-14T19:49:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlow()[pri:0, instance:com.seleniumapi.testcases.LoginTest@2a1edad4]" started-at="2024-04-14T19:49:48 IST" name="logoutUserCheckoutFlow" finished-at="2024-04-14T19:50:28 IST" duration-ms="39667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutUserCheckoutFlow -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LoginTest@2a1edad4]" started-at="2024-04-14T19:50:28 IST" name="quitDriver" finished-at="2024-04-14T19:50:29 IST" duration-ms="1071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.seleniumapi.testcases.LoginTest -->
-    </test> <!-- sanity4 -->
   </suite> <!-- sanitySuite -->
 </testng-results>

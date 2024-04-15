@@ -1,3 +1,4 @@
+com\seleniumapi\testcases\LogoutUserDatabaseTest.class
 com\seleniumapi\testcases\LogoutUserJSONTest.class
 expectedResult\ExpectedResult.class
 com\seleniumapi\testcases\LoginTest.class
