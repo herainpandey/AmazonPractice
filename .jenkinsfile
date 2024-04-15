@@ -3,7 +3,7 @@ pipeline
 agent any
 
 parameters {
-string(name: 'profile', defautValue:'sanity', decription: 'default sanity xml will run')
+string(name: 'profile', defautValue:'sanity', description: 'default sanity xml will run')
 }
 stages
 {
