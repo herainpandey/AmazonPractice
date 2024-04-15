@@ -1,7 +1,7 @@
 package com.seleniumapi.suite.utils.screenshotUtils;
 
 import com.seleniumapi.suite.testbase.TestBase;
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

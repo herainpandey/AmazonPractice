@@ -5,7 +5,7 @@ import com.seleniumapi.suite.objects.BillingAddress;
 import com.seleniumapi.suite.objects.Product;
 import com.seleniumapi.suite.pages.HomePage;
 import com.seleniumapi.suite.testbase.TestBase;
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import com.seleniumapi.utils.JsonUtil.JsonUtil;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import io.restassured.response.Response;

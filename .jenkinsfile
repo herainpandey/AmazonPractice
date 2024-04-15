@@ -2,6 +2,9 @@ pipeline
 {
 agent any
 
+parameters {
+string(name: 'profile', defautValue:'sanity', decription: 'default sanity xml will run')
+}
 stages
 {
 
@@ -25,7 +28,7 @@ stage('Test')
 {
     steps
         {
-           bat "mvn test -Psanity"
+           bat "mvn test -P${params.profile}"
         }
 }
 

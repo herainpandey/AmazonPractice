@@ -2,7 +2,7 @@ package com.seleniumapi.suite.api;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import io.restassured.response.Response;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 

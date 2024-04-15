@@ -1,7 +1,7 @@
 package com.seleniumapi.suite.pages;
 
 import com.seleniumapi.suite.pages.common.AbstractComponent;
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

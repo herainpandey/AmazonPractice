@@ -1,6 +1,6 @@
 package com.seleniumapi.suite.utils.DBUtils;
 
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 
 import java.sql.*;
 

@@ -3,7 +3,7 @@ import com.seleniumapi.suite.helper.OrderHelper;
 import com.seleniumapi.suite.objects.BillingAddress;
 import com.seleniumapi.suite.objects.Product;
 import com.seleniumapi.suite.testbase.TestBase;
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import com.seleniumapi.utils.JsonUtil.JsonUtil;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.apache.logging.log4j.LogManager;
@@ -42,7 +42,7 @@ public class LoginTest extends TestBase {
     }
 
 
-    @Test(enabled = false)
+    @Test(enabled = false,timeOut = 1000)
     public void loginUserCheckoutFlow() throws InterruptedException, IOException {
         Product product = OrderHelper.getProductData(PropertyReader.getInstance().getProperty(Constants.STAGE_PROPERTIES,"color"));
         homePage.load()

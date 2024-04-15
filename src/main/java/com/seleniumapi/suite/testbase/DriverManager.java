@@ -1,20 +1,20 @@
 package com.seleniumapi.suite.testbase;
 
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import com.seleniumapi.suite.utils.enums.DriverType;
+import com.seleniumapi.suite.enums.DriverType;
 
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
 
-import static com.seleniumapi.suite.utils.Constants.Constants.*;
+import static com.seleniumapi.suite.Constants.Constants.*;
 
 public class DriverManager {
 

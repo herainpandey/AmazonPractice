@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public abstract class AbstractComponent extends TestBase {
+public abstract class AbstractComponent {
 
     protected WebDriverWait wait;
 

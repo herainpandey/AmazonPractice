@@ -1,4 +1,4 @@
-package com.seleniumapi.suite.utils.Constants;
+package com.seleniumapi.suite.Constants;
 
 import org.apache.hc.core5.http.ContentType;
 

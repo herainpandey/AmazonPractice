@@ -4,17 +4,14 @@ import com.seleniumapi.suite.helper.OrderHelper;
 import com.seleniumapi.suite.objects.Product;
 import com.seleniumapi.suite.pages.HomePage;
 import com.seleniumapi.suite.testbase.TestBase;
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import com.seleniumapi.suite.utils.excelUtils.ExcelUtils;
-import com.seleniumapi.utils.resourceLoaderUtil.ResourceLoader;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.Map;
 
 public class LogoutUserExcelTest extends TestBase {

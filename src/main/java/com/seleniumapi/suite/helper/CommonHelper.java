@@ -1,6 +1,6 @@
-package com.seleniumapi.suite.pages.common;
+package com.seleniumapi.suite.helper;
 
-import com.seleniumapi.suite.utils.Constants.Constants;
+import com.seleniumapi.suite.Constants.Constants;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;

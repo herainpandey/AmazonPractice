@@ -2,9 +2,9 @@ package com.seleniumapi.suite.pages;
 
 import com.seleniumapi.suite.objects.BillingAddress;
 import com.seleniumapi.suite.pages.common.AbstractComponent;
-import com.seleniumapi.suite.pages.common.CommonHelper;
-import com.seleniumapi.suite.utils.Constants.Constants;
-import com.seleniumapi.suite.utils.enums.DataEnum;
+import com.seleniumapi.suite.helper.CommonHelper;
+import com.seleniumapi.suite.Constants.Constants;
+import com.seleniumapi.suite.enums.DataEnum;
 import com.seleniumapi.utils.PropertyReaderUtils.PropertyReader;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
