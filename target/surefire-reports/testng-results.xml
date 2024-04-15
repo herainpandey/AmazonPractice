@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-15T09:28:31 IST" name="sanitySuite" finished-at="2024-04-15T09:29:12 IST" duration-ms="40811">
+  <suite started-at="2024-04-15T09:33:37 IST" name="sanitySuite" finished-at="2024-04-15T09:34:17 IST" duration-ms="40313">
     <groups>
       <group name="sanity">
         <method signature="LogoutUserDatabaseTest.logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" name="logoutUserCheckoutFlowExcel" class="com.seleniumapi.testcases.LogoutUserDatabaseTest"/>
         <method signature="LogoutUserAPITest.logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" name="logoutUserCheckoutFlowExcel" class="com.seleniumapi.testcases.LogoutUserAPITest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-15T09:28:31 IST" name="sanity" finished-at="2024-04-15T09:29:03 IST" duration-ms="32652">
+    <test started-at="2024-04-15T09:33:37 IST" name="sanity" finished-at="2024-04-15T09:34:09 IST" duration-ms="32530">
       <class name="com.seleniumapi.testcases.LogoutUserDatabaseTest">
-        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:31 IST" name="getStudentData" finished-at="2024-04-15T09:28:31 IST" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:33:37 IST" name="getStudentData" finished-at="2024-04-15T09:33:37 IST" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStudentData -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:31 IST" name="initializeDriver" finished-at="2024-04-15T09:28:33 IST" duration-ms="1880" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:33:37 IST" name="initializeDriver" finished-at="2024-04-15T09:33:39 IST" duration-ms="1598" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,27 +26,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:33 IST" name="setObjects" finished-at="2024-04-15T09:28:33 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:33:39 IST" name="setObjects" finished-at="2024-04-15T09:33:39 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:28:33 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:29:03 IST" duration-ms="30179" status="PASS">
+        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:33:39 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:34:09 IST" duration-ms="30266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutUserCheckoutFlowExcel -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:29:03 IST" name="quitDriver" finished-at="2024-04-15T09:29:03 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserDatabaseTest@659eef7]" started-at="2024-04-15T09:34:09 IST" name="quitDriver" finished-at="2024-04-15T09:34:09 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.seleniumapi.testcases.LogoutUserDatabaseTest -->
     </test> <!-- sanity -->
-    <test started-at="2024-04-15T09:28:31 IST" name="sanity2" finished-at="2024-04-15T09:29:12 IST" duration-ms="40811">
+    <test started-at="2024-04-15T09:33:37 IST" name="sanity2" finished-at="2024-04-15T09:34:17 IST" duration-ms="40313">
       <class name="com.seleniumapi.testcases.LogoutUserAPITest">
-        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:31 IST" name="getStudentData" finished-at="2024-04-15T09:28:34 IST" duration-ms="2984" status="PASS">
+        <test-method is-config="true" signature="getStudentData()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:33:37 IST" name="getStudentData" finished-at="2024-04-15T09:33:40 IST" duration-ms="3102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStudentData -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:34 IST" name="initializeDriver" finished-at="2024-04-15T09:28:37 IST" duration-ms="3138" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:33:40 IST" name="initializeDriver" finished-at="2024-04-15T09:33:43 IST" duration-ms="2751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,15 +57,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:37 IST" name="setObjects" finished-at="2024-04-15T09:28:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setObjects()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:33:43 IST" name="setObjects" finished-at="2024-04-15T09:33:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObjects -->
-        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:28:37 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:29:11 IST" duration-ms="34081" status="PASS">
+        <test-method signature="logoutUserCheckoutFlowExcel()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:33:43 IST" name="logoutUserCheckoutFlowExcel" finished-at="2024-04-15T09:34:16 IST" duration-ms="33759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutUserCheckoutFlowExcel -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:29:11 IST" name="quitDriver" finished-at="2024-04-15T09:29:12 IST" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.seleniumapi.testcases.LogoutUserAPITest@6256ac4f]" started-at="2024-04-15T09:34:16 IST" name="quitDriver" finished-at="2024-04-15T09:34:17 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

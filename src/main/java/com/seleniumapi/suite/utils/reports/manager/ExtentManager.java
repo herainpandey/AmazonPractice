@@ -1,4 +1,4 @@
-package com.seleniumapi.suite.utils.reports.listener;
+package com.seleniumapi.suite.utils.reports.manager;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -13,9 +13,7 @@ public class ExtentManager {
         private static final ExtentReports extentReport = new ExtentReports();
         private static synchronized ExtentReports createInstance(){
             //File Name
-            String fileName = new StringBuilder().append("AutomationReport_")
-                    .append(new SimpleDateFormat("dd_MM_yyy_HH_mm_ss")
-                            .format(new Date())).append(".html").toString();
+            String fileName = new StringBuilder().append("Report").append(".html").toString();
 
             //Layout of Report
             ExtentSparkReporter sparkReporter = new ExtentSparkReporter(Constants.REPORTS_DIRECTORY + File.separator +fileName);

@@ -9,6 +9,7 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.seleniumapi.suite.helper.OrderHelper;
 import com.seleniumapi.suite.testbase.TestBase;
+import com.seleniumapi.suite.utils.reports.manager.ExtentManager;
 import com.seleniumapi.suite.utils.screenshotUtils.SccreenShotUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
